@@ -2,24 +2,26 @@ import React from "react";
 export default function Checkout(){
     return(
         <>
-            <form>
+            <form id="delivery-form">
                 <h1>CUSTOMER DETAILS</h1>
-                <label htmlFor="firstname"> Firstname<input type="text" id="firstname"/> </label>
-                <label htmlFor="lastname"> Lastname<input type="text" id="lastname"/> </label>
-                <label htmlFor="phone-no"> Phone-number<input type="text" id="phone-no"/> </label>
-                <label htmlFor="email"> Email-address<input type="text" id="email"/> </label>
-                <label htmlFor="eddress"> Address <span>(should include streetname, house number, city and state)</span><input type="text" id="address"/> </label>
-
+                <div id="customer-details">
+                    <label htmlFor="firstname"> Firstname<input type="text" id="firstname"/> </label>
+                    <label htmlFor="lastname"> Lastname<input type="text" id="lastname"/> </label>
+                    <label htmlFor="phone-no"> Phone-number<input type="text" id="phone-no"/> </label>
+                    <label htmlFor="email"> Email-address<input type="text" id="email"/> </label>
+                    <label htmlFor="eddress"> Address <span>(should include streetname, house number, city and state)</span><input type="text" id="address"/> </label>
+                </div>
                 <div>
-                <h1>DELIVERY METHOD</h1>
-                <h2>[How do you want your order delivered]</h2>
-                    <div>
+                <h1>DELIVERY METHOD <span>[How do you want your order delivered]</span></h1>
+                {/* <h2>[How do you want your order delivered]</h2> */}
+                    <div className="delivery-mode">
                         <label htmlFor = "pickup">Pick-up at Head Office <br/> Ready for delivery <span>8 hours after completing order</span></label>
                         <input type="radio" name="pickup" id="pickup"/>
                     </div>
-                    <div>
-                        <label htmlFor = "doorstep">Doorstep Delivery <br /> Ready for delivery <span>8 hours after completing order or add a note telling us your preferred delivery day</span></label>
+                    <div className="delivery-mode">
+                        <label htmlFor = "doorstep">Doorstep Delivery <br /> Ready for delivery <span>8 hours after completing order or add a note telling us your preferred delivery day</span>
                         <input type="radio" name="doorstep" id="doorstep"/>
+                        </label>  
                         <ul className="doorstep-d-info">
                             <li>Free delivery for orders in Lagos, Ibadan & Abuja</li>
                             <li>Delivery fee to be paid on delivery for orders outside Lagos, Ibadan & Abuja</li>

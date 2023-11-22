@@ -14,7 +14,6 @@ export default function CheckoutLayout(){
     return(
         <>
             <header>
-                {/* <img src="../images/Rectangle 69.jpg" alt="rectangle 69" /> */}
                 <h1>Checkout</h1>
             </header>
             <div className="checkout-container">
