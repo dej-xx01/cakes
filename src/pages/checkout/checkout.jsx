@@ -19,21 +19,23 @@ export default function Checkout(){
                         <input type="radio" name="pickup" id="pickup"/>
                     </div>
                     <div className="delivery-mode">
-                        <label htmlFor = "doorstep">Doorstep Delivery <br /> Ready for delivery <span>8 hours after completing order or add a note telling us your preferred delivery day</span>
-                        <input type="radio" name="doorstep" id="doorstep"/>
-                        </label>  
+                        <label htmlFor = "doorstep">Doorstep Delivery <br/> Ready for delivery <span>8 hours after completing order or add a note telling us your preferred delivery day</span>
                         <ul className="doorstep-d-info">
                             <li>Free delivery for orders in Lagos, Ibadan & Abuja</li>
                             <li>Delivery fee to be paid on delivery for orders outside Lagos, Ibadan & Abuja</li>
                             <li>Ensure your address is correct as Delivery Agents would only deliver to the stated address</li>
                             <li>On delivery day, delivery time may vary due to possible eventualities. </li>
                         </ul>
+                        </label>
+                        <input type="radio" name="doorstep" id="doorstep"/>  
                     </div>    
                 </div>
-                <h1>ORDER NOTES<span>(optional)</span></h1>
-                <input type="text" />
-                <h1>ADD VOUCHER<span>(optional)</span></h1>
-                <input type="text" />
+                <div className="notes-voucher-container">
+                    <h1>ORDER NOTES<span>(optional)</span></h1>
+                    <input type="text" />
+                    <h1>ADD VOUCHER<span>(optional)</span></h1>
+                    <input type="text" />
+                </div>
             </form>
         </>
     )
