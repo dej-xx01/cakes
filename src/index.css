@@ -1,3 +1,20 @@
+@font-face {
+  font-family: barcode;
+  src: url("./fonts/LibreBarcode39Text-Regular.ttf");
+}
+@font-face {
+  font-family: dancingscript;
+  src: url("./fonts/DancingScript-Regular.ttf");
+}
+@font-face {
+  font-family: roboto;
+  src: url("./fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: monoton;
+  src: url("./fonts/Monoton-Regular.ttf");
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -5,7 +22,8 @@ html{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui;
+  font-family: neuemontreal;
+  font-family: roboto;
   /* border: 1px solid red; */
 }
 body{
@@ -322,9 +340,9 @@ nav{
     color: #3A3A3A;
   }
   .customer-testimony p{
-    font-size: 1rem;
-    font-style: italic;
-    /* letter-spacing: 0.28px; */
+    font-size: 1.2rem;
+    font-family: dancingscript;
+    letter-spacing: 0.45px;
   }
   .customer-testimony h1{
     font-size: 1.2rem;
@@ -388,6 +406,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: barcode;
   }
   .footer-box > h1{
     font-weight: normal;
@@ -421,6 +440,7 @@ nav{
   }
   header{
     color: white;
+    font-family: monoton;
     background-color: 1.1rem;
     place-content: center;
   }
