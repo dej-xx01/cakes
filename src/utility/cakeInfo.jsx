@@ -1,7 +1,7 @@
 export default  [
     {
-        image: "./images/cake12.png",
-        otherImages: ["../images/slice.png"],
+        image: "../images/cake12.png",
+        otherImages:  ["../images/slice.png", "../images/slice2.png"],
         cakeName: "CHOCOLATE MAGIC WITH TOPPINGS",
         rangeLow: 18500,
         rangeHigh: 43500,
@@ -11,8 +11,8 @@ export default  [
         description: "Cakevilla’s red velvet cake is filled and frosted with marshmallow buttercream . Finished with red velvet crumbs and white chocolate drip & shavings / chips. Ingredients include Butter, flour, sugar, eggs, buttermilk, raising agents, Madagascar vanilla bean, sea salt, white chocolate and red gel color"
     },
     {
-        image: "./images/cake5.png",
-        otherImages: ["../images/slice.png"],
+        image: "../images/cake5.png",
+        otherImages:  ["../images/slice.png", "../images/slice2.png"],
         cakeName: "FOOTBALL PITCH CAKE",
         rangeLow: 14500,
         rangeHigh: 20500,
@@ -22,8 +22,8 @@ export default  [
         description: "Cakevilla’s red velvet cake is filled and frosted with marshmallow buttercream . Finished with red velvet crumbs and white chocolate drip & shavings / chips. Ingredients include Butter, flour, sugar, eggs, buttermilk, raising agents, Madagascar vanilla bean, sea salt, white chocolate and red gel color"
     },
     {
-        image: "./images/cake6.png",
-        otherImages: ["../images/slice.png"],
+        image: "../images/cake6.png",
+        otherImages:  ["../images/slice.png", "../images/slice2.png"],
         cakeName: "LIVERPOOL CAKE",
         rangeLow: 18300,
         rangeHigh: 53000,
@@ -33,8 +33,8 @@ export default  [
         description: "Cakevilla’s red velvet cake is filled and frosted with marshmallow buttercream . Finished with red velvet crumbs and white chocolate drip & shavings / chips. Ingredients include Butter, flour, sugar, eggs, buttermilk, raising agents, Madagascar vanilla bean, sea salt, white chocolate and red gel color"
     },
     {
-        image: "./images/cake7.png",
-        otherImages: ["../images/slice.png"],
+        image: "../images/cake7.png",
+        otherImages:  ["../images/slice.png", "../images/slice2.png"],
         cakeName: "CREAM & GOLD BUTTERCREAM CAKE",
         rangeLow: 18500,
         rangeHigh: 43500,
@@ -44,8 +44,8 @@ export default  [
         description: "Cakevilla’s red velvet cake is filled and frosted with marshmallow buttercream . Finished with red velvet crumbs and white chocolate drip & shavings / chips. Ingredients include Butter, flour, sugar, eggs, buttermilk, raising agents, Madagascar vanilla bean, sea salt, white chocolate and red gel color"
     },
     {
-        image: "./images/cake8.png",
-        otherImages: ["../images/slice.png"],
+        image: "../images/cake8.png",
+        otherImages:  ["../images/slice.png", "../images/slice2.png"],
         cakeName: "VAL SPECIAL WINE CAKE",
         rangeLow: 18500,
         rangeHigh: 43500,
@@ -56,7 +56,7 @@ export default  [
     },
     {
         image: "../images/cake12.png",
-        otherImages: ["../images/slice.png"],
+        otherImages:  ["../images/slice.png", "../images/slice2.png"],
         cakeName: "CHOCOLATE CAKE WITH TOPPINGS",
         rangeLow: 18500,
         rangeHigh: 43500,
@@ -67,7 +67,7 @@ export default  [
     },
     {
         image: "../images/rolex.jpg",
-        otherImages: ["../images/slice.png"],
+        otherImages:  ["../images/slice.png", "../images/slice2.png"],
         cakeName: "ROLEX WATCH CAKE",
         rangeLow: 14500,
         rangeHigh: 20500,
@@ -78,7 +78,7 @@ export default  [
     },
     {
         image: "../images/tuxedo.jpg",
-        otherImages: ["../images/slice.png"],
+        otherImages:  ["../images/slice.png", "../images/slice2.png"],
         cakeName: "TUXEDO CAKE",
         rangeLow: 18300,
         rangeHigh: 53000,
@@ -89,7 +89,7 @@ export default  [
     },
     {
         image: "../images/cake7.png",
-        otherImages: ["../images/slice.png"],
+        otherImages:  ["../images/slice.png", "../images/slice2.png"],
         cakeName: "BUTTERCREAM CAKE",
         rangeLow: 18500,
         rangeHigh: 43500,
@@ -100,7 +100,7 @@ export default  [
     },
     {
         image: "../images/cake8.png",
-        otherImages: ["../images/slice.png"],
+        otherImages:  ["../images/slice.png", "../images/slice2.png"],
         cakeName: "HESSESSY CAKE",
         rangeLow: 18500,
         rangeHigh: 43500,
