@@ -117,7 +117,16 @@ export default function Order({cakeDetails, id}){
                         <div className="cake-flavour">
                             <label htmlFor = "chocolate">Chocolate</label>
                             <input type="radio" name="flavour" id="chocolate" value = "chocolate" onChange={handleClick}/>
-                        </div>    
+                        </div>
+                        <div className="cake-flavour">
+                            <label htmlFor = "vanilla">Vanilla</label>
+                            <input type="radio" name="flavour" id="vanilla" value = "vanilla" onChange={handleClick}/>
+                        </div>
+                        <div className="cake-flavour">
+                            <label htmlFor = "strawberry">Strawberry</label>
+                            <input type="radio" name="flavour" id="strawbery" value = "strawberry" onChange={handleClick}/>
+                        </div>
+                            
                     </div>
                     
                     <label htmlFor="cake-message"> Cake Message :

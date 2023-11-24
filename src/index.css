@@ -398,6 +398,7 @@ nav{
   }
   footer p{
     /* letter-spacing: 0.3px; */
+    font-size: 1.1rem;
   }
   .footer-box h1{
     font-size: 1.1rem;
@@ -426,6 +427,7 @@ nav{
   }
   .footer-three-container ul li{
     margin-bottom: 0.8rem;
+    font-size: 1.1rem;
     /* letter-spacing: 0.8px; */
   }
 
