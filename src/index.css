@@ -1,18 +1,18 @@
 @font-face {
   font-family: cinzel;
-  src: url("./fonts/Cinzel-VariableFont_wght.ttf");
+  src: url("../fonts/Cinzel-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: dancingscript;
-  src: url("./fonts/DancingScript-Regular.ttf");
+  src: url("../fonts/DancingScript-Regular.ttf");
 }
 @font-face {
   font-family: roboto;
-  src: url("./fonts/Roboto-Regular.ttf");
+  src: url("../fonts/Roboto-Regular.ttf");
 }
 @font-face {
   font-family: monoton;
-  src: url("./fonts/Monoton-Regular.ttf");
+  src: url("../fonts/Monoton-Regular.ttf");
 }
 
 
