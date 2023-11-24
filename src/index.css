@@ -436,6 +436,7 @@ nav{
     /* /* background-image: url("../images/cover-image.jpg"); */
     position: relative;
     height: fit-content;
+    background-color: #fafafa;
   }
   header{
     background-image: url("../images/Rectangle 69.jpg");
