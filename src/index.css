@@ -840,11 +840,11 @@ nav{
   }
   .checkout-help-container{
     background-color: white;
-    box-shadow: 5px 8px 5px rgba(58, 58, 58, 0.10);
+    /* box-shadow: 5px 8px 5px rgba(58, 58, 58, 0.10); */
     margin: 1rem;
-    border-radius: 4px;
-    /* border: 1px solid brown; */
+    border-radius: 5px;
     padding: 1rem 0.5rem;
+    background-color: white;
   }
   .checkout-help-container h1{
     color: #3A3A3A;
@@ -868,12 +868,6 @@ nav{
   .checkout{
     position: relative;
     background-color: #fafafa;
-  }
-  .checkout::before{
-    content: url("../images/cover-image.jpg");
-    position: absolute;
-    inset: 0;
-    opacity: 0.06;
   }
 }
 
