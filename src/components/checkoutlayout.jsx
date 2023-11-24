@@ -26,7 +26,12 @@ export default function CheckoutLayout(){
                     <div className="underline"><span style={checkoutUnderline}></span></div>
                 </div>
             </div>
-            <Outlet/>         
+            <Outlet/>
+            <div className="checkout-help-container">
+                <h1>NEED HELP?</h1>
+                <p>Contact an assistant to help you</p>
+                <button>Chat <img src="../images/chat.png"/></button>
+            </div>         
         </>
     )
 }

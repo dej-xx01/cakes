@@ -1,7 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 export default function Checkout(){
+    const buttonStyle = {
+        width: "100%",
+        padding: "0.5rem 0",
+        color: "white",
+        backgroundColor: "#a71f23",
+        border: 0,
+        borderRadius: "4px",
+        marginTop: "1rem"
+    }
     return(
-        <>
+        <div className="checkout">
             <form id="delivery-form">
                 <h1>CUSTOMER DETAILS</h1>
                 <div id="customer-details">
@@ -36,7 +46,8 @@ export default function Checkout(){
                     <h1>ADD VOUCHER<span>(optional)</span></h1>
                     <input type="text" />
                 </div>
+                <Link to= "./payment"><button style={buttonStyle}>Continue to payment</button></Link>
             </form>
-        </>
+        </div>
     )
 }
