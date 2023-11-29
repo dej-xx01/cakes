@@ -17,7 +17,7 @@ export default function Nav(props){
         <nav>
             <div className="nav-bar">
             <div className="nav-box">
-                <h1>Fnamy<span>Cakes</span></h1>
+                <Link to = "."><h1>Fnamy<span>Cakes</span></h1></Link>
             </div>
             <div className="nav-box">
                 {isClicked && <img src="../images/exit.png" alt="exit-icon" className="exit-icon" onClick={viewMenu}/>}

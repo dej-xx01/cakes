@@ -12,4 +12,4 @@ export default function ScrollBox({cakeData}){
             </div>
         </Link>
     )
-}
+}  

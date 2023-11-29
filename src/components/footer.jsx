@@ -11,7 +11,7 @@ export default function Footer(){
         <>
         <footer id="footer">
             <div className="footer-box">
-                <h1>FnamyCakes</h1>
+                <h1>Fnamy<span>Cakes</span></h1>
                 <p>22, Lead Avenue <br /> Odoguyan <br /> Ikorodu, Lagos State.</p>
             </div>
             <div className="footer-box">

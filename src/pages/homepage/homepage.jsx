@@ -32,7 +32,7 @@ export default function HomePage(){
             <section>
                 <h1>OUR POPULAR PRODUCTS</h1>
                 <div className="slidescroll-container">
-                    {cakeInfo.map(data => <ScrollBox cakeData = {data}/>)}
+                    {cakeInfo.map((data, index) => index < 5 && <ScrollBox cakeData = {data}/>)}
                 </div>
                 <button className="see-more">See more</button>
             </section>
