@@ -537,7 +537,7 @@ nav{
   }
   .cake-details h3:nth-of-type(2){
     color: #3A3A3A;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-top: 8px;
     /* font-weight: normal; */
   }
@@ -549,14 +549,15 @@ nav{
     margin-top: 8px;
   }
   .cake-details p{
-    color: #3A3A3A;
+    color: #6b6565;
     font-style: italic;
-    font-size: 0.95rem;
+    font-size: 0.8rem;
   }
   .cake-details p span{
     font-weight: bold;
     font-style: normal;
     font-size: 1rem;
+    color: #3A3A3A;
     
   }
   .product-description{
@@ -598,6 +599,11 @@ nav{
   }
   .cake-flavour{
     align-items: center;
+  }
+  .cake-flavour label{
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: #6b6565;
   }
   label{
     font-size: 0.9rem;
